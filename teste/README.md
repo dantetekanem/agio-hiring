@@ -5,7 +5,7 @@ Neste diretório você irá encontrar dois arquivos no diretório `support/`: `l
 Você deverá atualizar o arquivo `processor.rb`, para que suporte consultar o `livro.csv` e `notas.txt`, e possa gerar um arquivo final chamado `resultado.txt`, contendo o `notas.txt` atualizado.
 
 ## Como funcionará a atualização dos dados?
-O `Processor` irá inicial consultando o arquivo notas.txt, e deverá executar as seguintes tarefas:
+O `Processor` irá iniciar consultando o arquivo notas.txt, e deverá executar as seguintes tarefas:
 - Procurar quais linhas tem a primeira coluna como AB3, caso encontre, deverá capturar a chave fiscal (terceira coluna) da linha `AB1` antecedendo a linha AB3
 - Com a chave fiscal, verificar no `livro.csv` a linha correta de acordo com a nota fiscal e capturar os dados dessa linha no livro.
 - Gerar uma nova linha após o AB3, chamada AB5 com os dados atualizados no **formato AB5** proveniente dos dados capturados no `livro.csv` e da própria linha AB3.
