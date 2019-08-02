@@ -4,6 +4,7 @@
 - 1 ano ou mais de experiência com Ruby e Ruby on Rails
 - Conhecimentos em testes unitários (TDD) e de comportamento (BDD)
 - Experiência com bancos de dados relacionais (PostgreSQL preferencialmente)
+- Experiência com GIT
 - Possibilidade de visitas técnicas aos clientes
 - Ser residente na cidade do Rio de Janeiro (a vaga é presencial na Barra da Tijuca)
 
