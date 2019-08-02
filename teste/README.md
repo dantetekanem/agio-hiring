@@ -28,9 +28,10 @@ O `Processor` irá iniciar consultando o arquivo notas.txt, e deverá executar a
 - Um arquivo chamado `resultado_esperado.txt` em `support/` possui o resultado final que deve ser gerado pelo aplicativo, utilize o como referência ou para comparar durante os testes.
 - É permitido utilizar qualquer biblioteca (gem) disponível, incluindo banco de dados. De preferência, utilize o SQLite, mas pode usar PostgreSQL também (inclua detalhes de como instalar).
 - O formato das datas no arquivo `resultado.txt` deve ser YYYY-MM-DD (ou em pt-br, AAAA-MM-DD, ex.: 2019-08-01).
+- Quanto mais testes, melhor. O que aconteceria se não tivesse a data no livro.csv? Você ainda pode adicionar mais colunas nos arquivos de teste para melhorar o conteúdo.
 
 ### Como participar
 - Você deverá fazer um fork deste repositório e trabalhar localmente.
 - Dê preferência para os commits na ordem que for fazendo, bons commits e descritivos são ideais.
 - Altere o arquivo `README.md` com detalhes de como rodar os testes e como gerar o arquivo, de acordo com o que você criou.
-- Envie o seu repositório (público) para `fbrum@agiobr.com`, com o título `Desenvolvedor Ruby`, anexe no e-mail o seu currículo.
+- Envie o seu repositório (público) para `fbrum@agiobr.com`, com o título `Desenvolvedor Ruby`, anexe no e-mail o seu currículo e não esqueça de enviar o link do seu repositório com o teste feito e funcional.

@@ -13,4 +13,4 @@
 - Vale Refeição e Vale Transporte
 
 ## Como se candidatar?
-Junto deste repositório, você irá encontrar o diretório `teste/` com mais informações sobre um teste de conhecimento, faça um fork do projeto, finalize-se o teste e encaminhe para `fbrum@agio.com`, com o título **"Desenvolvedor Ruby"** e seu currículo anexo.
+Junto deste repositório, você irá encontrar o diretório `teste/` com mais informações sobre um teste de conhecimento, faça um fork do projeto, finalize-se o teste e encaminhe para `fbrum@agio.com`, com o título **"Desenvolvedor Ruby"**, o link para o seu repositório e seu currículo anexo.
