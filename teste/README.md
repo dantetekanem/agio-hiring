@@ -11,7 +11,7 @@ O `Processor` irá iniciar consultando o arquivo notas.txt, e deverá executar a
 - Gerar uma nova linha após o AB3, chamada AB5 com os dados atualizados no **formato AB5** proveniente dos dados capturados no `livro.csv` e da própria linha AB3.
 
 ### Formato AB5
-- O formato AB5 vai constituir de 4 colunas, no formato `|COLUNA 1|COLUNA 2|COLUNA 3|COLUNA 4|COLUNA 5|`
+- O formato AB5 vai constituir de 4 colunas, no formato `|COLUNA 1|COLUNA 2|COLUNA 3|COLUNA 4|COLUNA 5|`.
 - Os dados devem estar formatados corretamente para:
 1. Coluna 1: AB5
 2. Coluna 2: Data do livro (baseada na chave nfe)
@@ -20,17 +20,17 @@ O `Processor` irá iniciar consultando o arquivo notas.txt, e deverá executar a
 5. Coluna 5: Valor final (valor corrigido multiplicado pela quantidade), com duas casas decimais, ex: (8000 vira 8000.00)
 
 ### Detalhes
-- Pode haver mais de AB3 para cada bloco, o AB5 deverá vir após o AB3, se houver mais de 1, deve vir sempre após seu AB3 relativo
-- O arquivo final tem que ser válido e salvo no diretório `teste/` com o nome resultado.txt
+- Pode haver mais de um AB3 para cada bloco, o AB5 deverá vir após o AB3, se houver mais de um, deverá vir sempre após seu AB3 relativo.
+- O arquivo final tem que ser válido e salvo no diretório `teste/` com o nome resultado.txt.
 - Você deverá adicionar os testes (usando RSpec) testando o aplicativo como um todo.
 - Para gerar o arquivo, o comando esperado será `ruby processor.rb`
 - (opcional) Para gerar o arquivo, o comando esperado será `ruby processor.rb livro.csv notas.txt resultado.txt` (ou um formato parecido), passando na ordem o primeiro parâmetro como o livro, segundo como as notas e terceiro o arquivo que será salvo.
 - Um arquivo chamado `resultado_esperado.txt` em `support/` possui o resultado final que deve ser gerado pelo aplicativo, utilize o como referência ou para comparar durante os testes.
-- É permitido utilizar qualquer biblioteca (gem) disponível, incluindo banco de dados. De preferência, utilize o SQLite, mas pode usar PostgreSQL também (inclua detalhes de como instalar)
-- O formato das datas no arquivo `resultado.txt` deve ser YYYY-MM-DD (ou em pt-br, AAAA-MM-DD, ex.: 2019-08-01)
+- É permitido utilizar qualquer biblioteca (gem) disponível, incluindo banco de dados. De preferência, utilize o SQLite, mas pode usar PostgreSQL também (inclua detalhes de como instalar).
+- O formato das datas no arquivo `resultado.txt` deve ser YYYY-MM-DD (ou em pt-br, AAAA-MM-DD, ex.: 2019-08-01).
 
 ### Como participar
-- Você deverá fazer um fork deste repositório e trabalhar localmente
-- Dê preferência para os commits na ordem que for fazendo, bons commits e descritivos são ideais
+- Você deverá fazer um fork deste repositório e trabalhar localmente.
+- Dê preferência para os commits na ordem que for fazendo, bons commits e descritivos são ideais.
 - Altere o arquivo `README.md` com detalhes de como rodar os testes e como gerar o arquivo, de acordo com o que você criou.
 - Envie o seu repositório (público) para `fbrum@agiobr.com`, com o título `Desenvolvedor Ruby`, anexe no e-mail o seu currículo.
