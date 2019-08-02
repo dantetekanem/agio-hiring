@@ -1,4 +1,4 @@
-# Ágio contrata Desenvolvedor Ruby/Ruby on Rails Junior 
+# Ágio contrata Desenvolvedor Junior Ruby/Ruby on Rails
 
 ## Requisitos:
 - 1 ano ou mais de experiência com Ruby e Ruby on Rails
